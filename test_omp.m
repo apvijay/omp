@@ -1,3 +1,5 @@
+% Test function for OMP
+
 clc;
 close all;
 clear all
@@ -9,7 +11,7 @@ A = randn(M,N);
 eps = 1e-3;
 
 count = 1;
-prange = 1:100;
+prange = 1:500;
 errp = zeros(1,numel(prange));
 distp = zeros(1,numel(prange));
 for p = prange

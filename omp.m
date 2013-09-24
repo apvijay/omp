@@ -1,4 +1,4 @@
-% Orthogonal matchin pursuit (OMP)
+% Orthogonal matching pursuit (OMP)
 % 
 % Approximate the solution of P0: % min \|x\|_0 subject to Ax = b
 % 
